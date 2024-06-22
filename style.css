@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  font-family: arial;
+  border: border-box;
+}
+.navbar{
+  height: 70px;
+  background-color: #d1e8ee;
+  color: black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.top-logo{
+  height: 60px;
+  width: 600px;
+}
+.logo{
+  background-image: url("images/amazon_logo.png");
+  background-size : cover;
+  height: 60px;
+  width: 100%;
+  border-right: 1px solid white;
+  
+}
+/**.border{
+  border: 1px solid transparent;
+}
+.border:hover{
+  border: 1px solid black;
+}**/
+
+/** box2 **/
+.business{
+  width: 220px;
+  height: 60px;
+  display: flex;
+  border-right: 1px solid white;
+}
+.service-icon{
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.609);
+}
+.list-service{
+  font-size:1.1rem;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 300;
+}
+.earning{
+  font-size:.80rem;
+  font-weight:lighter;
+}
+
+/**panel**/
+.panel{
+  background-color: #e8f0f1;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.all-option{
+  
+}
+.vendor-option p{
+  display: inline;
+  margin-left: 25px;
+}
+.vendor-option {
+  width: 600px;
+  font-size:1rem;
+}
+.something-crazy{
+  font-size: 1.1rem;
+  font-weight: 550;
+  display: flex;
+  height: 40px;
+  width: 330px;
+  align-items: center;
+}
+.rental{
+  width: 110px;
+}
+/** hero-portion **/
+.hero-portion{
+  height: 250px;
+  background-color: #e2e7e8;
+  background-image: url("hero.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.city{
+  margin-left: 450px;
+}
+
+/** hero-portion2 **/
+.hero-portion2{ 
+  height: 683px; 
+  display: flex;
+  margin-top: 20px;
+}
+.customize{
+  background-image: url("customize.jpg");
+  background-size: cover;
+  height: 280px;
+  width: 683px;
+  margin-left: 20px;
+  margin-right: 30px;
+  border-radius: 8px;
+}
+.destination{
+  background-image: url("destination.jpg");
+  background-size: cover;
+  height: 280px;
+  width: 690px;
+  border-radius: 8px; 
+}
+
+/** footer **/
+.footer-panel1{
+  height: 500px;
+  background-color: #efefef;
+}
+.footer-panel3{
+  height: 60px;
+  background-color: #efefef;
+}
+.copywrite{
+  text-align: center;
+  align-items: center;
+  padding: 20px
+}
